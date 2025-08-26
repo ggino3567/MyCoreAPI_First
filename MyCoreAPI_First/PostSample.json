@@ -1,0 +1,18 @@
+{
+  "ISBN": "1231231231",
+  "Name": "HarryPotterrrrrr",
+  "Price": 1599,
+  "Date": "20250826",
+  "Authors": [
+    {
+      "Name": "Trina",
+      "Gender": "Female",
+      "Birthday": "20020517"
+    },
+    {
+      "Name": "David",
+      "Gender": "Male",
+      "Birthday": "20030113"
+    }
+  ]
+}

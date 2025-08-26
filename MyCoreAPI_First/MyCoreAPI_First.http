@@ -1,0 +1,30 @@
+@MyCoreAPI_First_HostAddress = http://localhost:5278
+
+GET {{MyCoreAPI_First_HostAddress}}/TestAddPost/GetWeatherForecast
+Accept: application/json
+
+###
+
+//傳送 JSON 必須在請求裡加上 Content-Type：
+POST {{MyCoreAPI_First_HostAddress}}/TestAddPost/PostAdd
+Content-Type: application/json
+{
+  "ISBN": "1231231231",
+  "Name": "HarryPotterrrrrr",
+  "Price": 1599,
+  "Date": "20250826",
+  "Authors": [
+    {
+      "Name": "Trina",
+      "Gender": "Female",
+      "Birthday": "20020517"
+    },
+    {
+      "Name": "David",
+      "Gender": "Male",
+      "Birthday": "20030113"
+    }
+  ]
+}
+
+###

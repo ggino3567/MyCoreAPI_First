@@ -2,7 +2,7 @@
 //這次使用到的是舊版本.NET Framework的
 namespace MyCoreAPI_First.Models
 {
-    public class AddRequest
+    public class PostRequest
     {
         public string ISBN { get; set; }
         public string Name { get; set; }
@@ -18,7 +18,7 @@ namespace MyCoreAPI_First.Models
         public string Birthday { get; set; }
     }
 
-    public class AddResponse
+    public class PostResponse
     {
         public string Message { get; set; }
         public string ISBN { get; set; }

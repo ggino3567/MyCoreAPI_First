@@ -6,7 +6,7 @@ Accept: application/json
 ###
 
 //傳送 JSON 必須在請求裡加上 Content-Type：
-POST {{MyCoreAPI_First_HostAddress}}/TestAddPost/PostAdd
+POST {{MyCoreAPI_First_HostAddress}}/TestAddPost/PostTest
 Content-Type: application/json
 {
   "ISBN": "1231231231",
